@@ -71,9 +71,9 @@ Under the honest split, both Logistic Regression and Random Forest independently
 
 **Error analysis:** of the honest model's top 50, 31 were correctly identified as declining and 19 were false positives (38% error rate at the top of the ranking) — a real, disclosed number, not glossed over. The false positives cluster around genuinely stale, moderate-traffic pages that have actually plateaued rather than declined — the model over-weights staleness in the same way the baseline rule did, a real, nameable failure mode rather than random noise.
 
-*[Chart: Baseline vs. leaked vs. honest Precision@50 — see `work/figures/`]*
+![Baseline vs. leaked vs. honest Precision@50](precision_at_50_comparison.png)
 
-*[Chart: Archetype distribution — see `work/figures/archetype_distribution.png`]*
+![Archetype distribution](archetype_distribution.png)
 
 ---
 
