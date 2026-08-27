@@ -106,7 +106,7 @@ This paper's recommendations are the direct output of the Content Action Playboo
 
 ## 7. Artifacts
 
-- Archetype distribution chart (`work/figures/archetype_distribution.png`)
+- Archetype distribution chart (`work/archetype_distribution.png`)
 - Baseline vs. honest-model vs. leaked-model Precision@50 comparison (table above)
 - Permutation importance chart (top features under the honest model)
 
