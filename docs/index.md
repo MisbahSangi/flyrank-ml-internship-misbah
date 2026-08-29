@@ -30,7 +30,7 @@ This sits in FlyRank's Lane 2 (Refresh / Content Opportunity Scoring): the decis
 
 ## 2. Data
 
-**Release used:** the FlyRank ML internship starter dataset (`data/raw/content_refresh_anonymized.csv`) — 30,000 pseudonymized pages, 44 columns, one point-in-time snapshot. The full 79M-row warehouse release was explored earlier in the track for schema and feature-engineering practice, but the capstone model itself is built and validated on the starter release for reproducibility within the scope of this track.
+**Release used:** the FlyRank ML internship starter dataset (`data/raw/content_refresh_anonymized.csv`) — 30,000 pseudonymized pages, 44 columns, one point-in-time snapshot. The full 79M-row warehouse release was explored earlier in the track for schema and feature-engineering practice, but the capstone model itself is built and validated on the starter release for reproducibility within the scope of this track. This is a deliberate scope decision, not an oversight: prioritizing a fully honest, reproducible result on a smaller dataset over a larger but rushed one. Validating these findings at full warehouse scale — with a much larger client pool for the grouped-split validation — is the natural next step for this work, not a gap left unaddressed.
 
 **What was excluded, and why:**
 - `trend_direction` and `trend_pct` — these directly define the label (`is_declining`), so using them as features would be circular
